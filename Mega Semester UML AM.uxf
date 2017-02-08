@@ -41,4 +41,23 @@ Cody Henrichsen
 bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>350</y>
+      <w>420</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>IntNodeArray
+--
+- head : IntNode* 
+- size : int
+--
++ IntNodeArray(int) : constructor
++ getSize() : int
++ getFromIndex(int) : int
++ setAtIndex(int index, int value) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
