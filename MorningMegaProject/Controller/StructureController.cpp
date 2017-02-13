@@ -14,6 +14,16 @@ using namespace std;
 
 StructureController :: StructureController()
 {
+    wordNode = Node<string>();
+    numberNode = Node<int>();
+}
+
+void StructureController :: testNodeTypes()
+{
+    cout << "Here is a string node" << endl;
+    cout << wordNode.getNodeData() << endl;
+    cout << "Here is an uninitialized int node" << endl;
+    cout << numberNode.getNodeData() << endl;
     
 }
 
@@ -31,7 +41,7 @@ void StructureController :: testIntArray()
         temp.setAtIndex(spot, spot);
     }
     
-    for(int spot = 0; spot < 3; spot++)
+    for(int spot = 0; spot < temp.getSize(); spot++)
     {
         cout << temp.getFromIndex(spot) << " is at " << spot << endl;
     }
@@ -39,7 +49,9 @@ void StructureController :: testIntArray()
 
 void StructureController :: start()
 {
-    cout << "Going to test the IntNodeArray" << endl;
-    testIntArray();
-    cout << "Finished IntArrayNode testing" << endl;
+    cout << "Going to test the Node Template" << endl;
+    testNodeTypes();
+    cout << "Finished template testing" << endl;
+    
+    
 }

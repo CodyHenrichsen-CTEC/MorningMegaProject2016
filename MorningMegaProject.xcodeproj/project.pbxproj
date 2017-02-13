@@ -29,11 +29,13 @@
 		A4DA99091E48D402000CCB3B /* MorningMegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MorningMegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DA99131E48D5E0000CCB3B /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IntNode.cpp; path = Model/IntNode.cpp; sourceTree = "<group>"; };
 		A4DA99141E48D5E0000CCB3B /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IntNode.hpp; path = Model/IntNode.hpp; sourceTree = "<group>"; };
-		A4DA99341E4B72DE000CCB3B /* IntNodeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IntNodeArray.cpp; path = Model/IntNodeArray.cpp; sourceTree = "<group>"; };
-		A4DA99351E4B72DE000CCB3B /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IntNodeArray.hpp; path = Model/IntNodeArray.hpp; sourceTree = "<group>"; };
+		A4DA99341E4B72DE000CCB3B /* IntNodeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = IntNodeArray.cpp; path = Model/IntNodeArray.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		A4DA99351E4B72DE000CCB3B /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; name = IntNodeArray.hpp; path = Model/IntNodeArray.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		A4DA99371E4B7D2A000CCB3B /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Runner.cpp; path = Controller/Runner.cpp; sourceTree = "<group>"; };
 		A4DA99391E4B7D96000CCB3B /* StructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StructureController.cpp; path = Controller/StructureController.cpp; sourceTree = "<group>"; };
 		A4DA993A1E4B7D96000CCB3B /* StructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = StructureController.hpp; path = Controller/StructureController.hpp; sourceTree = "<group>"; };
+		A4DA99431E5208F6000CCB3B /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Node.hpp; path = Model/Node.hpp; sourceTree = "<group>"; };
+		A4DA99441E522640000CCB3B /* Mega Semester UML AM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mega Semester UML AM.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		A4DA990B1E48D402000CCB3B /* MorningMegaProject */ = {
 			isa = PBXGroup;
 			children = (
+				A4DA99421E5204F8000CCB3B /* Resources */,
 				A4DA99161E48D600000CCB3B /* Model */,
 				A4DA993C1E4B7D9D000CCB3B /* Controller */,
 			);
@@ -79,6 +82,7 @@
 				A4DA99141E48D5E0000CCB3B /* IntNode.hpp */,
 				A4DA99341E4B72DE000CCB3B /* IntNodeArray.cpp */,
 				A4DA99351E4B72DE000CCB3B /* IntNodeArray.hpp */,
+				A4DA99431E5208F6000CCB3B /* Node.hpp */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -91,6 +95,14 @@
 				A4DA993A1E4B7D96000CCB3B /* StructureController.hpp */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4DA99421E5204F8000CCB3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA99441E522640000CCB3B /* Mega Semester UML AM.pdf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +292,7 @@
 				A4DA99121E48D402000CCB3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
