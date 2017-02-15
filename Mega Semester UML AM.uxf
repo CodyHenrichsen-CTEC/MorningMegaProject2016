@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.1.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>640</x>
-      <y>120</y>
-      <w>410</w>
-      <h>290</h>
+      <x>512</x>
+      <y>72</y>
+      <w>328</w>
+      <h>232</h>
     </coordinates>
     <panel_attributes>IntNode
 --
@@ -31,10 +31,10 @@ bg=#7CFC00</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>10</x>
-      <y>30</y>
-      <w>200</w>
-      <h>70</h>
+      <x>8</x>
+      <y>0</y>
+      <w>160</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Created by
 Cody Henrichsen
@@ -44,14 +44,14 @@ bg=cyan</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>30</x>
-      <y>170</y>
-      <w>420</w>
-      <h>190</h>
+      <x>24</x>
+      <y>112</y>
+      <w>336</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>IntNodeArray
 --
-- head : IntNode* 
+- front : IntNode * 
 - size : int
 --
 + IntNodeArray(int) : constructor
@@ -64,10 +64,10 @@ bg=#008000</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>250</y>
-      <w>220</w>
-      <h>40</h>
+      <x>352</x>
+      <y>176</y>
+      <w>176</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m2=1..n</panel_attributes>
@@ -76,10 +76,10 @@ m2=1..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>30</x>
-      <y>470</y>
-      <w>650</w>
-      <h>340</h>
+      <x>24</x>
+      <y>352</y>
+      <w>520</w>
+      <h>272</h>
     </coordinates>
     <panel_attributes>bg=#B0E0E6
 Node&lt;Type&gt;
@@ -99,5 +99,40 @@ Accessors
 + setNodeData(Type value) : void
 + setNodePointer(Node&lt;Type&gt; * next) : void</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>368</y>
+      <w>408</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>Array&lt;Type&gt;
+--
+- front : Node&lt;Type&gt; *
+- size : int
+--
++ Array&lt;Type&gt;(int size) : constructor
++ getSize() : int
++ getFromIndex(int index) : Type
++ setAtIndex(int index, Type value) : void
+
+bg=#00BFFF
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>536</x>
+      <y>456</y>
+      <w>160</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..n</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

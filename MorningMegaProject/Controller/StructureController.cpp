@@ -22,7 +22,7 @@ void StructureController :: testNodeTypes()
 {
     cout << "Here is a string node" << endl;
     cout << wordNode.getNodeData() << endl;
-    cout << "Here is an uninitialized int node" << endl;
+    cout << "Here is an int node" << endl;
     cout << numberNode.getNodeData() << endl;
     
 }

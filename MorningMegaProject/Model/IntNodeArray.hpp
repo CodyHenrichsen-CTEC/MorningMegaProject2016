@@ -14,7 +14,7 @@
 class IntNodeArray
 {
 private:
-    IntNode * head;
+    IntNode * front;
     int size;
 public:
     IntNodeArray(int bigness);

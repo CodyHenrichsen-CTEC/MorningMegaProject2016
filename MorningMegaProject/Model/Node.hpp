@@ -16,9 +16,9 @@ private:
     Type nodeData;
     Node<Type>* nodePointer;
 public:
-    Node<Type>();
-    Node<Type>(Type data);
-    Node<Type>(Type data, Node<Type> * nextPointer);
+    Node();
+    Node(Type data);
+    Node(Type data, Node<Type> * nextPointer);
     
     Type getNodeData();
     Node<Type> * getNodePointer();
@@ -64,7 +64,17 @@ Node<Type> * Node<Type> :: getNodePointer()
     return nodePointer;
 }
 
+template <class Type>
+void Node<Type> :: setNodeData(Type data)
+{
+    this->nodeData = data;
+}
 
+template <class Type>
+void Node<Type> :: setNodePointer(Node<Type> * pointer)
+{
+    this->nodePointer = pointer;
+}
 
 #endif /* Node_hpp */
 

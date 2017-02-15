@@ -35,7 +35,7 @@
 		A4DA99391E4B7D96000CCB3B /* StructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StructureController.cpp; path = Controller/StructureController.cpp; sourceTree = "<group>"; };
 		A4DA993A1E4B7D96000CCB3B /* StructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = StructureController.hpp; path = Controller/StructureController.hpp; sourceTree = "<group>"; };
 		A4DA99431E5208F6000CCB3B /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Node.hpp; path = Model/Node.hpp; sourceTree = "<group>"; };
-		A4DA99441E522640000CCB3B /* Mega Semester UML AM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mega Semester UML AM.pdf"; sourceTree = "<group>"; };
+		A4DA99461E527BF9000CCB3B /* Mega Semester UML AM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mega Semester UML AM.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		A4DA99421E5204F8000CCB3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A4DA99441E522640000CCB3B /* Mega Semester UML AM.pdf */,
+				A4DA99461E527BF9000CCB3B /* Mega Semester UML AM.pdf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";

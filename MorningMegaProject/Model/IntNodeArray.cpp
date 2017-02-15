@@ -17,9 +17,8 @@ IntNodeArray :: IntNodeArray(int size)
     
     this->front = new IntNode();
     
-    
-    /*Starting at one because front already points to a valid
-      IntNode.
+    /* 
+     Starting loop at 1 since front is a valid node already.
     */
     for(int index = 1; index < size; index++)
     {
